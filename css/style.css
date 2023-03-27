@@ -1,0 +1,91 @@
+body {
+  background-color: #bdc3c7;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  background-color: #ecf0f1;
+}
+
+.sidebar {
+  width: 400px;
+  height: 600px;
+  float: left;
+}
+
+.content {
+  width: 800px;
+  height: 600px;
+  float: right;
+}
+
+/* Logo web */
+#logo {
+  float: left;
+  width: 200px;
+  height: auto;
+  padding: 13px;
+}
+
+#logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigasi */
+#menu {
+  float: right;
+  width: 960px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#menu li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#menu li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #34495e;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Content */
+.blog-content {
+  float: left;
+  max-width: 380px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-content img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* SideBar */
+.recent-article {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.recent-article ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* Micro clear fix */
+.clear {
+  clear: both;
+}
